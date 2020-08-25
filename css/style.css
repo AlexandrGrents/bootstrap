@@ -1,0 +1,134 @@
+:root {
+	--main-color: #f4f4f4;
+	--main-bg: #F97300;
+}
+.navbar
+{
+	background: var(--main-bg);
+}
+.nav-link, .navbar-brand
+{
+	color: var(--main-color);
+	cursor: pointer;
+}
+.nav-link
+{
+	margin-right: 1em !important; 
+}
+.nav-link:hover
+{
+	background: var(--main-color);
+	color: var(--main-bg);
+}
+.navbar-collapse
+{
+	justify-content: flex-end;
+}
+.navbar-toggler
+{
+	background: #fff !important;
+}
+
+.bg-dark{
+background-color:#343a40!important
+}
+.bg-primary{
+background-color:#343a40!important
+}
+
+.header{
+	height: 100vh;
+	background-image: url(../images/headerback.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+	position: absolute;
+	top: 20%;
+	margin: auto;
+	padding: 2em;
+}
+.description h3
+{
+	color: var(--main-bg);
+}
+.description p
+{
+	color: #666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border: 1px solid var(--main-bg);
+	background: var(--main-bg);
+	color: #fff;
+}
+
+/*---------about--------*/
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+
+.about h3
+{
+	color: var(--main-bg);
+}
+
+.about img
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.about span
+{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+
+.about .desc{
+	padding: 2em;
+	border-left: 4px solid #10828c;
+}
+
+.about .desc h3{ color: #10828c; }
+.about .desc p{
+	line-height: 2;
+	color: #888;
+}
+
+/*---------portfolio---------*/
+.portfolio
+{
+	margin: 4em 0;
+	position: relative;
+}
+.portfolio h1
+{
+	color: var(--main-bg);
+	margin: 2em;
+}
+.portfolio img
+{
+	height: 15rem;
+	width: 100%;
+	margin: 1em;
+}
