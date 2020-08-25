@@ -12,15 +12,15 @@
 	<nav class="navbar navbar-expand-lg fixed-top">
 		<a class="navbar-brand" href="#">Home</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
+	    <span class="navbar-toggler-icon"><img src="images/navicon.svg"></span>
 	  </button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-4">
-				<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-				<li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+				<li class="nav-item"><a href="#about" class="nav-link" >About</a></li>
+				<li class="nav-item"><a href="#portfolio" class="nav-link" >Portfolio</a></li>
 				<li class="nav-item"><a href="#post" class="nav-link">Post</a></li>
-				<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+				<li class="nav-item"><a href="#team" class="nav-link" >Team</a></li>
+				<li class="nav-item"><a href="#contact" class="nav-link" >Contact</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -38,6 +38,7 @@
 			</div>
 		</div>
 	</header>
+
 	<!-- about -->
 	<div class="about" id="about">
 		<div class="container">
@@ -53,11 +54,9 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 
 	<!-- portfolio -->
-
 	<div class="portfolio" id="portfolio">
 		<h1 class="text-center">Portfolio</h1>
 		<div class="container">
@@ -93,6 +92,112 @@
 		</div>
 	</div>
 
+	<div class="blog" id="post">
+		<div class="container">
+			<h1 class="text-center">Blog</h1>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="card">
+						<div class="card-image">
+							<img src="images/posts/polit.jpg" align="center" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Post title</h4>
+							<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, amet.</p>
+							<div class="card-footer">
+								<a href="#" class="card-link">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="card">
+						<div class="card-image">
+							<img src="images/posts/images.jpg" align="center" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Post title</h4>
+							<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, amet.</p>
+							<div class="card-footer">
+								<a href="#" class="card-link">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="card">
+						<div class="card-image">
+							<img src="images/posts/imag2.jpg" align="center" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Post title</h4>
+							<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, amet.</p>
+							<div class="card-footer">
+								<a href="#" class="card-link">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="team" id="team">
+		<div class="container">
+			<h1 class="text-center">Our team</h1>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 item">
+					<img src="images/team/team-2.jpg" align="center" class="img-fluid">
+					<div class="des">Sara</div>
+					<span class="text-muted">Manager</span>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-12 item">
+					<img src="images/team/team-3.jpg" align="center" class="img-fluid">
+					<div class="des">Jack</div>
+					<span class="text-muted">Manager</span>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-12 item">
+					<img src="images/team/team-2.jpg" align="center" class="img-fluid">
+					<div class="des">Julia</div>
+					<span class="text-muted">Manager</span>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-12 item">
+					<img src="images/team/team-3.jpg" align="center" class="img-fluid">
+					<div class="des">Piter</div>
+					<span class="text-muted">Manager</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact-form" id="contact">
+		<div class="container">
+			<form>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h1>Get in Touch</h1>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12">
+						<div class="form-group">
+							<input type="text" class="form-control form-control-lg" placeholder="Your name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control form-control-lg" placeholder="Your.Email@email.com" name="email">
+						</div>
+						<div class="form-group">
+							<textarea class="form-cotrol form-control-lg"></textarea>
+						</div>
+						<input type="submit" class="btn btn-secondary btn-block" value="Send">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
